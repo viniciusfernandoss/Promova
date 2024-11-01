@@ -1,0 +1,97 @@
+#gerenciamento h1{
+    color: rgb(33, 37, 41);
+}
+
+.titulo-gerenciamento{
+    
+}
+
+.content-txt-gerenciamento p{
+    text-align: justify;
+    color: rgba(122, 130, 144, 1);
+    font-weight: 400;
+}
+
+.caixa-port{
+    margin-bottom: 25px;
+}
+
+
+
+.accordion-button.collapsed{
+    padding: 2.5%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 400;
+    background: linear-gradient(to right, rgb(4, 39, 69), rgb(6, 63, 111));
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    padding: 2.5%;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.accordion-body{
+    font-size: 1.1rem;
+}
+
+
+
+.bg-sessaofinal{
+    height: 70vh;
+    background: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-sessaofinal{
+    color: white;
+}
+
+.content-sessaofinal h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.content-sessaofinal p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.brt-sessaofinal a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.brt-sessaofinal a:hover{
+    background-color: rgb(4, 39, 69);
+    color: white;
+    text-decoration: none;
+}
+
+/* Swiper */
+.swiper-slide{
+    margin-bottom: 55px;
+}
+.swiper-pagination-bullet {
+    background-color: rgb(4, 39, 69);
+    height: 15px;
+    width: 15px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #3377FF;
+}
+
+@media (max-width: 992px){
+    .titulo-gerenciamento{
+        font-size: 3rem;
+    }
+
+    .content-sessaofinal h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
