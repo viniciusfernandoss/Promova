@@ -36,7 +36,7 @@
 
 .bg-sessaofinal{
     height: 70vh;
-    background: black;
+    background-image: url('../img-servicos/bg-vem3.png');
     background-size: cover;
     background-position: center;
 }
